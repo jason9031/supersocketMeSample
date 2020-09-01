@@ -1,0 +1,82 @@
+2020-05-28 16:27:02,561 [1] ERROR SSServer.AppLog [(null)] - test1
+2020-05-28 16:27:02,631 [1] INFO  SSServer.AppLog [(null)] - test2
+2020-05-28 16:27:02,632 [1] WARN  SSServer.AppLog [(null)] - test3
+2020-05-28 16:27:02,632 [1] FATAL SSServer.AppLog [(null)] - test4
+2020-05-28 16:27:03,505 [1] ERROR SSServer.AppLog [(null)] - test1
+2020-05-28 16:27:03,506 [1] INFO  SSServer.AppLog [(null)] - test2
+2020-05-28 16:27:03,506 [1] WARN  SSServer.AppLog [(null)] - test3
+2020-05-28 16:27:03,506 [1] FATAL SSServer.AppLog [(null)] - test4
+2020-05-28 16:27:04,236 [1] ERROR SSServer.AppLog [(null)] - test1
+2020-05-28 16:27:04,237 [1] INFO  SSServer.AppLog [(null)] - test2
+2020-05-28 16:27:04,238 [1] WARN  SSServer.AppLog [(null)] - test3
+2020-05-28 16:27:04,242 [1] FATAL SSServer.AppLog [(null)] - test4
+2020-05-28 16:27:04,803 [1] ERROR SSServer.AppLog [(null)] - test1
+2020-05-28 16:27:04,803 [1] INFO  SSServer.AppLog [(null)] - test2
+2020-05-28 16:27:04,804 [1] WARN  SSServer.AppLog [(null)] - test3
+2020-05-28 16:27:04,804 [1] FATAL SSServer.AppLog [(null)] - test4
+2020-05-28 16:27:05,353 [1] ERROR SSServer.AppLog [(null)] - test1
+2020-05-28 16:27:05,354 [1] INFO  SSServer.AppLog [(null)] - test2
+2020-05-28 16:27:05,354 [1] WARN  SSServer.AppLog [(null)] - test3
+2020-05-28 16:27:05,355 [1] FATAL SSServer.AppLog [(null)] - test4
+2020-05-28 16:27:05,931 [1] ERROR SSServer.AppLog [(null)] - test1
+2020-05-28 16:27:05,932 [1] INFO  SSServer.AppLog [(null)] - test2
+2020-05-28 16:27:05,932 [1] WARN  SSServer.AppLog [(null)] - test3
+2020-05-28 16:27:05,932 [1] FATAL SSServer.AppLog [(null)] - test4
+2020-05-28 16:27:06,401 [1] ERROR SSServer.AppLog [(null)] - test1
+2020-05-28 16:27:06,402 [1] INFO  SSServer.AppLog [(null)] - test2
+2020-05-28 16:27:06,402 [1] WARN  SSServer.AppLog [(null)] - test3
+2020-05-28 16:27:06,402 [1] FATAL SSServer.AppLog [(null)] - test4
+2020-05-28 16:27:06,923 [1] ERROR SSServer.AppLog [(null)] - test1
+2020-05-28 16:27:06,924 [1] INFO  SSServer.AppLog [(null)] - test2
+2020-05-28 16:27:06,924 [1] WARN  SSServer.AppLog [(null)] - test3
+2020-05-28 16:27:06,924 [1] FATAL SSServer.AppLog [(null)] - test4
+2020-05-28 16:27:07,337 [1] ERROR SSServer.AppLog [(null)] - test1
+2020-05-28 16:27:07,338 [1] INFO  SSServer.AppLog [(null)] - test2
+2020-05-28 16:27:07,338 [1] WARN  SSServer.AppLog [(null)] - test3
+2020-05-28 16:27:07,338 [1] FATAL SSServer.AppLog [(null)] - test4
+2020-05-28 16:27:08,412 [1] DEBUG Udp Socket Server [(null)] - The command 4(Receive.udp.CommandSendToClient, CounterTMT_V2, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null) has been discovered
+2020-05-28 16:27:08,429 [1] DEBUG Udp Socket Server [(null)] - Listener (0.0.0.0:7888) was started
+2020-05-28 16:27:08,432 [1] INFO  Udp Socket Server [(null)] - The server instance Udp Socket Server has been started!
+2020-05-28 16:27:14,762 [1] ERROR SSServer.AppLog [(null)] - test1
+2020-05-28 16:27:14,763 [1] INFO  SSServer.AppLog [(null)] - test2
+2020-05-28 16:27:14,763 [1] WARN  SSServer.AppLog [(null)] - test3
+2020-05-28 16:27:14,763 [1] FATAL SSServer.AppLog [(null)] - test4
+2020-05-28 16:27:45,040 [1] ERROR SSServer.AppLog [(null)] - test1
+2020-05-28 16:27:45,125 [1] INFO  SSServer.AppLog [(null)] - test2
+2020-05-28 16:27:45,126 [1] WARN  SSServer.AppLog [(null)] - test3
+2020-05-28 16:27:45,126 [1] FATAL SSServer.AppLog [(null)] - test4
+2020-05-28 16:27:46,293 [1] DEBUG Udp Socket Server [(null)] - The command 4(Receive.udp.CommandSendToClient, CounterTMT_V2, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null) has been discovered
+2020-05-28 16:27:46,314 [1] DEBUG Udp Socket Server [(null)] - Listener (0.0.0.0:7888) was started
+2020-05-28 16:27:46,318 [1] INFO  Udp Socket Server [(null)] - The server instance Udp Socket Server has been started!
+2020-05-28 16:28:08,190 [1] DEBUG Udp Socket Server [(null)] - The command 4(Receive.udp.CommandSendToClient, CounterTMT_V2, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null) has been discovered
+2020-05-28 16:28:08,192 [1] DEBUG Udp Socket Server [(null)] - Listener (0.0.0.0:7888) was started
+2020-05-28 16:28:08,193 [1] INFO  Udp Socket Server [(null)] - The server instance Udp Socket Server has been started!
+2020-05-28 16:29:47,486 [1] DEBUG Udp Socket Server [(null)] - The command 4(Receive.udp.CommandSendToClient, CounterTMT_V2, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null) has been discovered
+2020-05-28 16:29:47,597 [1] DEBUG Udp Socket Server [(null)] - Listener (0.0.0.0:7888) was started
+2020-05-28 16:29:47,600 [1] INFO  Udp Socket Server [(null)] - The server instance Udp Socket Server has been started!
+2020-05-28 16:33:55,162 [1] DEBUG Udp Socket Server [(null)] - The command 4(Receive.udp.CommandSendToClient, CounterTMT_V2, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null) has been discovered
+2020-05-28 16:33:55,273 [1] DEBUG Udp Socket Server [(null)] - Listener (0.0.0.0:7888) was started
+2020-05-28 16:33:55,277 [1] INFO  Udp Socket Server [(null)] - The server instance Udp Socket Server has been started!
+2020-05-28 16:44:05,079 [1] DEBUG Udp Socket Server [(null)] - The command 4(Receive.udp.CommandSendToClient, CounterTMT_V2, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null) has been discovered
+2020-05-28 16:44:05,154 [1] DEBUG Udp Socket Server [(null)] - Listener (0.0.0.0:7888) was started
+2020-05-28 16:44:05,157 [1] INFO  Udp Socket Server [(null)] - The server instance Udp Socket Server has been started!
+2020-05-28 16:44:06,158 [1] DEBUG Udp Socket Server [(null)] - Listener (0.0.0.0:7888) was stoppped
+2020-05-28 16:44:06,159 [1] INFO  Udp Socket Server [(null)] - The server instance Udp Socket Server has been stopped!
+2020-05-28 16:44:07,505 [1] DEBUG Udp Socket Server [(null)] - The command 4(Receive.udp.CommandSendToClient, CounterTMT_V2, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null) has been discovered
+2020-05-28 16:44:07,506 [1] DEBUG Udp Socket Server [(null)] - Listener (0.0.0.0:7888) was started
+2020-05-28 16:44:07,507 [1] INFO  Udp Socket Server [(null)] - The server instance Udp Socket Server has been started!
+2020-05-28 16:44:08,418 [1] DEBUG Udp Socket Server [(null)] - Listener (0.0.0.0:7888) was stoppped
+2020-05-28 16:44:08,419 [1] INFO  Udp Socket Server [(null)] - The server instance Udp Socket Server has been stopped!
+2020-05-28 16:44:09,306 [1] DEBUG Udp Socket Server [(null)] - The command 4(Receive.udp.CommandSendToClient, CounterTMT_V2, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null) has been discovered
+2020-05-28 16:44:09,307 [1] DEBUG Udp Socket Server [(null)] - Listener (0.0.0.0:7888) was started
+2020-05-28 16:44:09,309 [1] INFO  Udp Socket Server [(null)] - The server instance Udp Socket Server has been started!
+2020-05-28 16:44:10,057 [1] DEBUG Udp Socket Server [(null)] - Listener (0.0.0.0:7888) was stoppped
+2020-05-28 16:44:10,057 [1] INFO  Udp Socket Server [(null)] - The server instance Udp Socket Server has been stopped!
+2020-05-28 16:44:11,186 [1] DEBUG Udp Socket Server [(null)] - The command 4(Receive.udp.CommandSendToClient, CounterTMT_V2, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null) has been discovered
+2020-05-28 16:44:11,188 [1] DEBUG Udp Socket Server [(null)] - Listener (0.0.0.0:7888) was started
+2020-05-28 16:44:11,191 [1] INFO  Udp Socket Server [(null)] - The server instance Udp Socket Server has been started!
+2020-05-28 16:44:11,724 [1] DEBUG Udp Socket Server [(null)] - Listener (0.0.0.0:7888) was stoppped
+2020-05-28 16:44:11,724 [1] INFO  Udp Socket Server [(null)] - The server instance Udp Socket Server has been stopped!
+2020-05-28 16:44:13,571 [1] DEBUG Udp Socket Server [(null)] - The command 4(Receive.udp.CommandSendToClient, CounterTMT_V2, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null) has been discovered
+2020-05-28 16:44:13,572 [1] DEBUG Udp Socket Server [(null)] - Listener (0.0.0.0:7888) was started
+2020-05-28 16:44:13,573 [1] INFO  Udp Socket Server [(null)] - The server instance Udp Socket Server has been started!

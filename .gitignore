@@ -1,0 +1,26 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+*.svn-base
+*.lock
+*.ide-wal
+*.json
+*.cache
+*.CopyComplete
+*.resources
+*.dll
+*.licenses
+*.pdb
+*.txt
+*.application
+*.ini
+*.mdb
+*.log
+*.exe
+*.log20200602-13
+*.zip
+packages/*
+bin/*
+obj/*
+Debug/*
+Release/*

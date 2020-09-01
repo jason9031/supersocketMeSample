@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2F1A02BA-B8C5-498D-9183-393E12690063}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AppClientSuperSocket</RootNamespace>
+    <AssemblyName>AppClientSuperSocket</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppClientSuperSocket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppClientSuperSocket.Designer.cs">
+      <DependentUpon>AppClientSuperSocket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delegate\AppEvents.cs" />
+    <Compile Include="FileExtension.cs" />
+    <Compile Include="Struct\FtpInfo.cs" />
+    <Compile Include="Helper\ClientHelper.cs" />
+    <Compile Include="Function\PopupWindow.cs" />
+    <Compile Include="Log\ILog.cs" />
+    <Compile Include="Log\ILogFactory.cs" />
+    <Compile Include="Log\Log4NetLog.cs" />
+    <Compile Include="Log\Log4NetLogFactory.cs" />
+    <Compile Include="Log\LogFactoryBase.cs" />
+    <Compile Include="Log\LogFileTimer.cs" />
+    <Compile Include="Struct\ConfigInfo.cs" />
+    <Compile Include="Helper\CsvFileHelper.cs" />
+    <Compile Include="DataConst\Enums.cs" />
+    <Compile Include="Function\FunctionExtension.cs" />
+    <Compile Include="Struct\GatheringPointsInfo.cs" />
+    <Compile Include="Struct\NameAttribute.cs" />
+    <Compile Include="Struct\ParserTypeInfo.cs" />
+    <Compile Include="Struct\PathManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Helper\RegistryHelper.cs" />
+    <Compile Include="Struct\TransferErrorEventArgs.cs" />
+    <Compile Include="DataConst\UserConst.cs" />
+    <Compile Include="Helper\XmlHelper.cs" />
+    <Compile Include="subForm\frmPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subForm\frmPassword.designer.cs">
+      <DependentUpon>frmPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Task\TaskInfo.cs" />
+    <Compile Include="Task\TaskManager.cs" />
+    <Compile Include="UsrControls\ucConfiguration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsrControls\ucConfiguration.designer.cs">
+      <DependentUpon>ucConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsrControls\ucConnection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsrControls\ucConnection.designer.cs">
+      <DependentUpon>ucConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsrControls\ucTestMode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsrControls\ucTestMode.designer.cs">
+      <DependentUpon>ucTestMode.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AppClientSuperSocket.resx">
+      <DependentUpon>AppClientSuperSocket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="subForm\frmPassword.resx">
+      <DependentUpon>frmPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsrControls\ucConfiguration.resx">
+      <DependentUpon>ucConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsrControls\ucConnection.resx">
+      <DependentUpon>ucConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsrControls\ucTestMode.resx">
+      <DependentUpon>ucTestMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Var\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

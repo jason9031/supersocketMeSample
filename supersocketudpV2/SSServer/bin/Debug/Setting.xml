@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Config>
+	<description>Application Setting</description>
+	<FLAG>Flag</FLAG>
+	<KEY>key</KEY>
+	<FC>fff</FC>
+	<PC>ppp</PC>
+	<UR>url</UR>
+	<DeviceIP>127.0.0.1</DeviceIP>
+	<DevicePort>6000</DevicePort>
+	<SendLimit>20</SendLimit>
+	<SendSingleType>SendOneIDInOne</SendSingleType>
+	<SendEverySecsWork>300</SendEverySecsWork>
+	<SendEverySecsOff>400</SendEverySecsOff>
+	<SendEveryTime>15</SendEveryTime>
+	<NoDataSecsSetOffLine>1200</NoDataSecsSetOffLine>
+	<NoDataSecsSetOffLineCount>3</NoDataSecsSetOffLineCount>
+	<ServerURL>https://hp-imold-dev.cn.hpicorp.net:4444/vtm/anonymous/rtsm/moldShotBroker_web.rtsm</ServerURL>
+	<FORM>HalconV,PlcMon,WorkTT</FORM>
+	<ServerProdURL>https://hp-vtm.ext.hp.com/vtm/anonymous/rtsm/moldShotBroker_web.rtsm</ServerProdURL>
+</Config>

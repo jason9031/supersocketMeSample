@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSocketV1", "SuperSocketV1.csproj", "{1ABABB81-A2FA-4ECC-AAC5-CF056900EB12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTUSuperSocket", "..\DTUSuperSocket\DTUSuperSocket.csproj", "{A417B6B7-1106-4C51-AA47-6BF9D2FC5774}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ABABB81-A2FA-4ECC-AAC5-CF056900EB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ABABB81-A2FA-4ECC-AAC5-CF056900EB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ABABB81-A2FA-4ECC-AAC5-CF056900EB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ABABB81-A2FA-4ECC-AAC5-CF056900EB12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A417B6B7-1106-4C51-AA47-6BF9D2FC5774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A417B6B7-1106-4C51-AA47-6BF9D2FC5774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A417B6B7-1106-4C51-AA47-6BF9D2FC5774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A417B6B7-1106-4C51-AA47-6BF9D2FC5774}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5FC4986-AC99-4E26-96DB-EFCD63DD7C90}
+	EndGlobalSection
+EndGlobal
